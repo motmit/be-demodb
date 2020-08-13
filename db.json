@@ -1,47 +1,299 @@
 {
-"e":[
-{"id":"E1","i":"charging-station","s":"S1","t":"planned","n":"Mon-Fri Switch On","im":1,"ph":10,"pm":0,"l":false,"al":false,"ta":"Fryer 1 Switch [Air Switch, 3#dYf15Tg&]","m":"Swith On","mu":"","ws":{"d1":true,"d2":true,"d3":true,"d4":true,"d5":true,"d6":false,"d7":false}},
-{"id":"E2","i":"charging-station","s":"S1","t":"planned","n":"Sat Switch On","im":1,"ph":11,"pm":0,"l":false,"al":false,"ta":"Fryer 1 Switch [Air Switch, 3#dYf15Tg&]","m":"Swith On","mu":"","timet":0,"ws":{"d1":false,"d2":false,"d3":false,"d4":false,"d5":false,"d6":true,"d7":false}},
-{"id":"E3","i":"charging-station","s":"S1","t":"planned","n":"Sun Switch On","im":1,"ph":12,"pm":0,"l":false,"al":false,"ta":"Fryer 1 Switch [Air Switch, 3#dYf15Tg&]","m":"Swith On","mu":"","ws":{"d1":false,"d2":false,"d3":false,"d4":false,"d5":false,"d6":false,"d7":true}},
-{"id":"E4","i":"charging-station","s":"S1","t":"planned","n":"Mon-Fri, Sun Switch Off","im":1,"ph":22,"pm":0,"l":false,"al":false,"ta":"Fryer 1 Switch [Air Switch, 3#dYf15Tg&]","m":"Swith Off","mu":"","ws":{"d1":true,"d2":true,"d3":true,"d4":true,"d5":true,"d6":false,"d7":true}},
-{"id":"E5","i":"charging-station","s":"S1","t":"planned","n":"Sat Switch Off","im":1,"ph":23,"pm":0,"l":false,"al":false,"ta":"Fryer 1 Switch [Air Switch, 3#dYf15Tg&]","m":"Swith Off","mu":"","ws":{"d1":false,"d2":false,"d3":false,"d4":false,"d5":false,"d6":true,"d7":false}},
-{"id":"E6","i":"exclamation-circle","s":"S1","t":"unplanned","n":"Power al Mon-Fri","im":1,"ph":0,"pm":0,"l":false,"al":true,"ta":"Fryer 1 Sense [Air Sense, 2£ysi28Ef4]","m":"Power is Less Than","mu":"kW","ws":{"d1":true,"d2":true,"d3":true,"d4":true,"d5":true,"d6":false,"d7":false},"phf":10,"pht":22,"pmf":0,"pmt":0,"d":"","tae":"Email User Defined Group","alw":false},
-{"id":"E7","i":"exclamation-circle","s":"S1","t":"unplanned","n":"Power al Sat","im":1,"ph":0,"pm":0,"l":false,"al":true,"ta":"Fryer 1 Sense [Air Sense, 2£ysi28Ef4]","m":"Power is Less Than","mu":"kW","ws":{"d1":false,"d2":false,"d3":false,"d4":false,"d5":false,"d6":true,"d7":false},"phf":11,"pht":23,"pmf":0,"pmt":0,"d":"","tae":"Email User Defined Group","alw":false},
-{"id":"E8","s":"S1","i":"exclamation-circle","t":"unplanned","n":"Power al Sun","im":1,"ph":0,"pm":0,"l":false,"al":true,"ta":"Fryer 1 Sense [Air Sense, 2£ysi28Ef4]","m":"Power is Less Than","mu":"kW","ws":{"d1":false,"d2":false,"d3":false,"d4":false,"d5":false,"d6":false,"d7":true},"phf":11,"pht":23,"pmf":0,"pmt":0,"d":"","tae":"Email User Defined Group","alw":false},
-{"id":"E9","i":"temperature-low","s":"S1","t":"unplanned","n":"Low Temp Mon-Fri","im":1,"ph":0,"pm":0,"l":false,"al":true,"ta":"Fryer 1 Sense [Air Sense, 2£ysi28Ef4]","m":"Temperature is Less Than","mu":"55","ws":{"d1":true,"d2":true,"d3":true,"d4":true,"d5":true,"d6":false,"d7":false},"phf":10,"pht":22,"pmf":0,"pmt":0,"d":"Fryer 1 Sense [Air Sense, 2£ysi28Ef4]","tae":"Email User Defined Group","alw":false},
-{"id":"E10","i":"temperature-low","s":"S1","t":"unplanned","n":"Low Temp Sat","im":1,"ph":0,"pm":0,"l":false,"al":true,"ta":"Fryer 1 Sense [Air Sense, 2£ysi28Ef4]","m":"Temperature is Less Than","mu":"55","ws":{"d1":false,"d2":false,"d3":false,"d4":false,"d5":false,"d6":true,"d7":false},"phf":11,"pht":23,"pmf":0,"pmt":0,"d":"","tae":"Email User Defined Group","alw":false},
-{"id":"E11","i":"temperature-low","s":"S1","t":"unplanned","n":"Low Temp Sun","im":1,"ph":0,"pm":0,"l":false,"al":true,"ta":"Fryer 1 Sense [Air Sense, 2£ysi28Ef4]","m":"Temperature is Less Than","mu":"55","ws":{"d1":false,"d2":false,"d3":false,"d4":false,"d5":false,"d6":false,"d7":true},"phf":12,"pht":22,"pmf":0,"pmt":0,"d":"","tae":"Email User Defined Group","alw":false},
-{"id":"E12","i":"battery-empty","s":"S1","t":"unplanned","n":"Low Battery Mon-Fri","im":1,"ph":0,"pm":0,"l":false,"al":true,"ta":"Fryer 1 Sense [Air Sense, 2£ysi28Ef4]","m":"Low Battery","mu":"","ws":{"d1":true,"d2":true,"d3":true,"d4":true,"d5":true,"d6":false,"d7":false},"phf":10,"pht":22,"pmf":0,"pmt":0,"d":"","tae":"Email User Defined Group","alw":false},
-{"id":"E13","i":"battery-empty","s":"S1","t":"unplanned","n":"Low Battery Sat","im":1,"ph":0,"pm":0,"l":false,"al":true,"ta":"Fryer 1 Sense [Air Sense, 2£ysi28Ef4]","m":"Low Battery","mu":"","ws":{"d1":false,"d2":false,"d3":false,"d4":false,"d5":false,"d6":true,"d7":false},"phf":11,"pht":23,"pmf":0,"pmt":0,"d":"","tae":"Email User Defined Group","alw":false},
-{"id":"E14","i":"battery-empty","s":"S1","t":"unplanned","n":"Low Battery","im":1,"ph":0,"pm":0,"l":false,"al":true,"ta":"Fryer 1 Sense [Air Sense, 2£ysi28Ef4]","m":"Low Battery","mu":"","ws":{"d1":false,"d2":false,"d3":false,"d4":false,"d5":false,"d6":false,"d7":true},"phf":12,"pht":22,"pmf":0,"pmt":0,"d":"","tae":"Email User Defined Group","alw":false},
-{"id":"E15","i":"envelope","s":"S1","t":"triggered","n":"Email User Group","im":1,"ph":0,"pm":0,"l":true,"al":true,"ta":"Email Server","m":"Email Output","mu":"Admin Group","ws":{"d1":false,"d2":false,"d3":false,"d4":false,"d5":false,"d6":false,"d7":false},"phf":0,"pht":0,"pmf":0,"pmt":0,"d":"","tae":"","alw":false},
-{"id":"S2E4","i":"charging-station","s":"S2","t":"unplanned","n":"Sched 2 Event 1 E4","im":1,"ph":0,"pm":0,"l":false,"al":false,"ta":"","m":"","mu":"","ws":{"d1":false,"d2":false,"d3":false,"d4":false,"d5":false,"d6":false,"d7":false}},
-{"id":"S3E5","i":"charging-station","s":"S3","t":"triggered","n":"Sched 3 Event 5","im":1,"ph":0,"pm":0,"l":false,"al":false,"ta":"","m":"","mu":"","ws":{"d1":true,"d2":false,"d3":true,"d4":false,"d5":true,"d6":false,"d7":false}},
-{"id":"S3E6","i":"charging-station","s":"S3","t":"planned","n":"Sched 3 Event 6","im":1,"ph":0,"pm":0,"l":false,"al":false,"ta":"","m":"","mu":"","ws":{"d1":true,"d2":true,"d3":true,"d4":true,"d5":true,"d6":false,"d7":false}},
-{"id":"S3E7","i":"charging-station","s":"S3","t":"unplanned","n":"Sched 3 Event 7","im":3,"ph":0,"pm":0,"l":false,"al":false,"ta":"","m":"","mu":"","ws":{"d1":false,"d2":false,"d3":false,"d4":false,"d5":false,"d6":true,"d7":true}}
-],
-"ss":[
-{"id":"S1","i":"calendar-alt","n":"Standard Power & als, [MF10-22,S11-23,S12-22]","a":true,"s":[],"e":["E1","E2","E3","E4","E5","E6","E7","E8","E9","E10","E11","E12","E13","E14","E15"]},
-{"id":"S2","i":"calendar-alt","n":"s Demo 2","a":false,"s":["13/07/20,20/07/20"],"e":["S2E4"]},
-{"id":"S3","i":"snowflake","n":"s 3 Event 1","a":false,"s":[],"e":["S3E5","S3E6","S3E7"]},
-{"id":"S4","i":"snowflake","n":"s Demo 4","a":false,"s":["27/07/20"],"e":[]}
-],
-"timeframes":[
-{"id":"T1","n":"Shope Hours","ws":{
-"d1":{"a":true,"t":10,"tc":16},
-"d2":{"a":true,"t":9,"tc":17},
-"d3":{"a":true,"t":9,"tc":17},
-"d4":{"a":true,"t":9,"tc":17},
-"d5":{"a":true,"t":9,"tc":17},
-"d6":{"a":true,"t":11.5,"tc":21},
-"d7":{"a":false,"t":-1,"tc":-1}}},
-{"id":"T2","n":"Peak Hours","ws":{
-"d1":{"a":true,"t":11.5,"tc":14},
-"d2":{"a":true,"t":11.5,"tc":14},
-"d3":{"a":true,"t":11.5,"tc":14},
-"d4":{"a":true,"t":11.5,"tc":14},
-"d5":{"a":true,"t":11.5,"tc":14},
-"d6":{"a":true,"t":11.5,"tc":14},
-"d7":{"a":false,"t":-1,"tc":-1}}}
-]
+  "events": [
+    {
+      "id": "E1",
+      "icon": "charging-station",
+      "schedule": "S1",
+      "type": "planned",
+      "name": "Mon-Fri Switch On 4",
+      "importance": 1,
+      "plannedhour": 10,
+      "plannedminute": 0,
+      "log": false,
+      "alert": false,
+      "target": "Fryer 1 Switch [Air Switch, 3#dYf15Tg&]",
+      "message": "Swith On",
+      "messageunit": "",
+      "weekselection": {
+        "d1": true,
+        "d2": true,
+        "d3": true,
+        "d4": true,
+        "d5": true,
+        "d6": false,
+        "d7": false
+      },
+      "timetype": 0,
+      "timeframeslot": 0
+    },
+    {
+      "id": "E6",
+      "icon": "exclamation-circle",
+      "schedule": "S1",
+      "type": "unplanned",
+      "name": "Power al Mon-Fri",
+      "importance": 1,
+      "plannedhour": 0,
+      "plannedminute": 0,
+      "log": false,
+      "alert": true,
+      "target": "Fryer 1 Sense [Air Sense, 2£ysi28Ef4]",
+      "message": "Power is Less Than",
+      "messageunit": "kW",
+      "weekselection": {
+        "d1": true,
+        "d2": true,
+        "d3": true,
+        "d4": true,
+        "d5": true,
+        "d6": false,
+        "d7": false
+      },
+      "plannedHourFrom": 10,
+      "plannedHourTo": 22,
+      "plannedMinFrom": 0,
+      "plannedMinTo": 0,
+      "device": "",
+      "targetEvent": "Email User Defined Group",
+      "always": true,
+      "timetype": 0,
+      "timeframeslot": 0
+    },
+    {
+      "id": "E9",
+      "icon": "temperature-low",
+      "schedule": "S1",
+      "type": "unplanned",
+      "name": "Low Temp Mon-Fri",
+      "importance": 1,
+      "plannedhour": 0,
+      "plannedminute": 0,
+      "log": false,
+      "alert": true,
+      "target": "Fryer 1 Sense [Air Sense, 2£ysi28Ef4]",
+      "message": "Temperature is Less Than",
+      "messageunit": "55",
+      "weekselection": {
+        "d1": true,
+        "d2": true,
+        "d3": true,
+        "d4": true,
+        "d5": true,
+        "d6": false,
+        "d7": false
+      },
+      "plannedHourFrom": 10,
+      "plannedHourTo": 22,
+      "plannedMinFrom": 0,
+      "plannedMinTo": 0,
+      "device": "Fryer 1 Sense [Air Sense, 2£ysi28Ef4]",
+      "targetEvent": "Email User Defined Group",
+      "always": false,
+      "timetype": 0,
+      "timeframeslot": 0
+    },
+    {
+      "id": "E15",
+      "icon": "envelope",
+      "schedule": "S1",
+      "type": "triggered",
+      "name": "Email User Group",
+      "importance": 1,
+      "plannedhour": 0,
+      "plannedminute": 0,
+      "log": true,
+      "alert": true,
+      "target": "Email Server",
+      "message": "Email Output",
+      "messageunit": "Admin Group",
+      "weekselection": {
+        "d1": false,
+        "d2": false,
+        "d3": false,
+        "d4": false,
+        "d5": false,
+        "d6": false,
+        "d7": false
+      },
+      "plannedHourFrom": 0,
+      "plannedHourTo": 0,
+      "plannedMinFrom": 0,
+      "plannedMinTo": 0,
+      "device": "",
+      "targetEvent": "",
+      "always": false,
+      "timetype": 0,
+      "timeframeslot": 0
+    },
+    {
+      "id": "S2E4",
+      "icon": "charging-station",
+      "schedule": "S2",
+      "type": "unplanned",
+      "name": "Sched 2 Event 1 E4",
+      "importance": 1,
+      "plannedhour": 0,
+      "plannedminute": 0,
+      "log": false,
+      "alert": false,
+      "target": "",
+      "message": "",
+      "messageunit": "",
+      "weekselection": {
+        "d1": false,
+        "d2": false,
+        "d3": false,
+        "d4": false,
+        "d5": false,
+        "d6": false,
+        "d7": false
+      },
+      "timetype": 0,
+      "timeframeslot": 0
+    },
+    {
+      "id": "MIknOH5"
+    }
+  ],
+  "schedules": [
+    {
+      "id": "S1",
+      "icon": "calendar-alt",
+      "name": "Standard Power & als, [MF10-22,S11-23,S12-22]",
+      "active": true,
+      "schedule": [],
+      "events": [
+        "E1",
+        "E6",
+        "E9",
+        "E15"
+      ]
+    },
+    {
+      "id": "S2",
+      "icon": "calendar-alt",
+      "name": "s Demo 2",
+      "active": false,
+      "schedule": [
+        "13/07/20,20/07/20"
+      ],
+      "events": [
+        "S2E4"
+      ]
+    },
+    {
+      "id": "S3",
+      "icon": "snowflake",
+      "name": "s 3 Event 1",
+      "active": false,
+      "schedule": [],
+      "events": []
+    },
+    {
+      "id": "S4",
+      "icon": "snowflake",
+      "name": "s Demo 4",
+      "active": false,
+      "schedule": [
+        "27/07/20"
+      ],
+      "events": []
+    }
+  ],
+  "timeframes": [
+    {
+      "id": "T1",
+      "name": "Shope Hours",
+      "weekselection": {
+        "d1": {
+          "active": true,
+          "type": 10,
+          "tc": 16
+        },
+        "d2": {
+          "active": true,
+          "type": 9,
+          "tc": 17
+        },
+        "d3": {
+          "active": true,
+          "type": 9,
+          "tc": 17
+        },
+        "d4": {
+          "active": true,
+          "type": 9,
+          "tc": 17
+        },
+        "d5": {
+          "active": true,
+          "type": 9,
+          "tc": 17
+        },
+        "d6": {
+          "active": true,
+          "type": 11.5,
+          "tc": 21
+        },
+        "d7": {
+          "active": false,
+          "type": -1,
+          "tc": -1
+        }
+      }
+    },
+    {
+      "id": "T2",
+      "name": "Peak Hours",
+      "weekselection": {
+        "d1": {
+          "active": true,
+          "type": 11.5,
+          "tc": 14
+        },
+        "d2": {
+          "active": true,
+          "type": 11.5,
+          "tc": 14
+        },
+        "d3": {
+          "active": true,
+          "type": 11.5,
+          "tc": 14
+        },
+        "d4": {
+          "active": true,
+          "type": 11.5,
+          "tc": 14
+        },
+        "d5": {
+          "active": true,
+          "type": 11.5,
+          "tc": 14
+        },
+        "d6": {
+          "active": true,
+          "type": 11.5,
+          "tc": 14
+        },
+        "d7": {
+          "active": false,
+          "type": -1,
+          "tc": -1
+        }
+      }
+    }
+  ],
+  "devices": [
+    {
+      "id": "d1",
+      "name": "Device 1",
+      "schedule": [
+        "S1",
+        "S2",
+        "S3",
+        "S4"
+      ]
+    }
+  ]
 }
