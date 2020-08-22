@@ -203,83 +203,87 @@
   "timeframes": [
     {
       "id": "T1",
+      "calendar": "C1",
       "name": "Shope Hours",
+      "color": "#2196F3",
       "weekselection": {
         "d1": {
           "active": true,
-          "type": 10,
-          "tc": 16
+          "start": 10,
+          "end": 16
         },
         "d2": {
           "active": true,
-          "type": 9,
-          "tc": 17
+          "start": 9,
+          "end": 17
         },
         "d3": {
           "active": true,
-          "type": 9,
-          "tc": 17
+          "start": 9,
+          "end": 17
         },
         "d4": {
           "active": true,
-          "type": 9,
-          "tc": 17
+          "start": 9,
+          "end": 17
         },
         "d5": {
           "active": true,
-          "type": 9,
-          "tc": 17
+          "start": 9,
+          "end": 17
         },
         "d6": {
           "active": true,
-          "type": 11.5,
-          "tc": 21
+          "start": 11.5,
+          "end": 21
         },
         "d7": {
           "active": false,
-          "type": -1,
-          "tc": -1
+          "start": -1,
+          "end": -1
         }
       }
     },
     {
       "id": "T2",
+      "calendar": "C1",
       "name": "Peak Hours",
+      "color": "#FF9800",
       "weekselection": {
         "d1": {
           "active": true,
-          "type": 11.5,
-          "tc": 14
+          "start": 11.5,
+          "end": 14
         },
         "d2": {
           "active": true,
-          "type": 11.5,
-          "tc": 14
+          "start": 11.5,
+          "end": 14
         },
         "d3": {
           "active": true,
-          "type": 11.5,
-          "tc": 14
+          "start": 11.5,
+          "end": 14
         },
         "d4": {
           "active": true,
-          "type": 11.5,
-          "tc": 14
+          "start": 11.5,
+          "end": 14
         },
         "d5": {
           "active": true,
-          "type": 11.5,
-          "tc": 14
+          "start": 11.5,
+          "end": 14
         },
         "d6": {
           "active": true,
-          "type": 11.5,
-          "tc": 14
+          "start": 11.5,
+          "end": 14
         },
         "d7": {
           "active": false,
-          "type": -1,
-          "tc": -1
+          "start": -1,
+          "end": -1
         }
       }
     }
@@ -293,6 +297,16 @@
         "S2",
         "S3",
         "S4"
+      ]
+    }
+  ],
+  "calendars": [
+    {
+      "id": "C1",
+      "name": "Calendar 1",
+      "timeframes": [
+        "T1",
+        "T2"
       ]
     }
   ]
